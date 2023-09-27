@@ -44,15 +44,18 @@ header {
   border-bottom: 1px solid #242424;
 }
 
-.nav {
+.container {
   width: 100%;
   max-width: 1192px;
+  margin: 0 64px;
+}
+
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 0;
   height: 75px;
-  margin: 0 64px;
 }
 
 .logo {
@@ -116,6 +119,103 @@ main {
   color: #242424;
   line-height: 24px;
   margin-bottom: 50px;
+}
+
+.trending {
+  width: 100%;
+  max-width: 1192px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 16px;
+}
+
+.trending__card-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.trending__card-title svg {
+  margin-right: 10px;
+}
+
+.trending__card-title h2 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.trending__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* padding: 0 16px; */
+}
+
+.trending__card {
+  max-width: 33.33%;
+  display: flex;
+  flex-basis: 33.33%;
+  margin-bottom: 24px;
+}
+
+.trending__card-number {
+  color: #f2f2f2;
+  font-size: 32px;
+  font-weight: 600;
+  margin-right: 16px;
+  width: 40px;
+  position: relative;
+  top: -10px;
+}
+
+.trending__body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.trending__author,
+.trending__info {
+  font-size: 13px;
+  color: #6b6b6b;
+}
+
+.trending__author {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trending__image-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.trending__image-icon-profile {
+  border-radius: 50%;
+}
+
+.trending__author-name {
+  font-weight: 600;
+  color: #242424;
+}
+
+.trending__description {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.trending__info {
+  display: flex;
+  align-items: center;
+}
+
+.trending__span-dot {
+  padding: 0 5px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .btn {
