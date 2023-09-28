@@ -31,7 +31,7 @@
     </header>
     <div class="spacer"></div>
     <main>
-      <div class="main-container">
+      <div class="container">
         <div class="main-heading">
           <h2 class="title">Stay curious.</h2>
           <h3 class="main-subheading">
@@ -43,205 +43,417 @@
       </div>
     </main>
     <section class="trending">
-      <div class="trending__card-title">
-        <svg width="28" height="29" viewBox="0 0 28 29" fill="none" class="ji ah">
-          <path fill="#fff" d="M0 .8h28v28H0z"></path>
-          <g opacity="0.8" clip-path="url(#trending_svg__clip0)">
-            <path fill="#fff" d="M4 4.8h20v20H4z"></path>
-            <circle cx="14" cy="14.79" r="9.5" stroke="#000"></circle>
-            <path
-              d="M5.46 18.36l4.47-4.48M9.97 13.87l3.67 3.66M13.67 17.53l5.1-5.09M16.62 11.6h3M19.62 11.6v3"
-              stroke="#000"
-              stroke-linecap="round"></path>
-          </g>
-          <defs>
-            <clipPath id="trending_svg__clip0">
+      <div class="container">
+        <div class="trending__card-title">
+          <svg width="28" height="29" viewBox="0 0 28 29" fill="none" class="ji ah">
+            <path fill="#fff" d="M0 .8h28v28H0z"></path>
+            <g opacity="0.8" clip-path="url(#trending_svg__clip0)">
+              <path fill="#fff" d="M4 4.8h20v20H4z"></path>
+              <circle cx="14" cy="14.79" r="9.5" stroke="#000"></circle>
               <path
-                fill="#fff"
-                transform="translate(4 4.8)"
-                d="M0 0h20v20H0z"></path>
-            </clipPath>
-          </defs>
-        </svg>
-        <h2>Trending on Medium</h2>
-      </div>
-      <div class="trending__container">
-        <div class="trending__card">
-          <div class="trending__card-number">01</div>
-          <div class="trending__body">
-            <div class="trending__author">
-              <div>
-                <a href="#"
-                  ><img
-                    alt="The Airbnb Tech Blog"
-                    class="trending__image-icon"
-                    src="https://miro.medium.com/v2/resize:fill:40:40/1*MlNQKg-sieBGW5prWoe9HQ.jpeg"
-                    width="20"
-                    height="20"
-                    loading="lazy"
-                /></a>
+                d="M5.46 18.36l4.47-4.48M9.97 13.87l3.67 3.66M13.67 17.53l5.1-5.09M16.62 11.6h3M19.62 11.6v3"
+                stroke="#000"
+                stroke-linecap="round"></path>
+            </g>
+            <defs>
+              <clipPath id="trending_svg__clip0">
+                <path
+                  fill="#fff"
+                  transform="translate(4 4.8)"
+                  d="M0 0h20v20H0z"></path>
+              </clipPath>
+            </defs>
+          </svg>
+          <h2>Trending on Medium</h2>
+        </div>
+        <div class="trending__container">
+          <div class="trending__card">
+            <div class="trending__card-number">01</div>
+            <div class="trending__body">
+              <div class="trending__author">
+                <div>
+                  <a href="#"
+                    ><img
+                      alt="The Airbnb Tech Blog"
+                      class="trending__image-icon"
+                      src="https://miro.medium.com/v2/resize:fill:40:40/1*MlNQKg-sieBGW5prWoe9HQ.jpeg"
+                      width="20"
+                      height="20"
+                      loading="lazy"
+                  /></a>
+                </div>
+                <div>
+                  <span class="trending__author-name">Bryn Bodayle</span> in
+                  <span class="trending__author-name">The Airbnb Tech Blog</span>
+                </div>
               </div>
-              <div>
-                <span class="trending__author-name">Bryn Bodayle</span> in
-                <span class="trending__author-name">The Airbnb Tech Blog</span>
+              <div class="trending__description">Unlocking SwiftUI at Airbnb</div>
+              <div class="trending__info">
+                <span class="trending__date">Sept 21</span>
+                <span class="trending__span-dot">·</span>
+                <span class="trending__read-time">10 min read</span>
               </div>
-            </div>
-            <div class="trending__description">Unlocking SwiftUI at Airbnb</div>
-            <div class="trending__info">
-              <span class="trending__date">Sept 21</span>
-              <span class="trending__span-dot">·</span>
-              <span class="trending__read-time">10 min read</span>
             </div>
           </div>
-        </div>
-        <div class="trending__card">
-          <div class="trending__card-number">02</div>
-          <div class="trending__body">
-            <div class="trending__author">
-              <div>
-                <a href="#"
-                  ><img
-                    alt="Jonathan Lethem"
-                    class="trending__image-icon trending__image-icon-profile"
-                    src="https://miro.medium.com/v2/resize:fill:40:40/1*iudmnb-vrHQeHKc34ETv_A.jpeg"
-                    width="20"
-                    height="20"
-                    loading="lazy"
-                /></a>
+          <div class="trending__card">
+            <div class="trending__card-number">02</div>
+            <div class="trending__body">
+              <div class="trending__author">
+                <div>
+                  <a href="#"
+                    ><img
+                      alt="Jonathan Lethem"
+                      class="trending__image-icon trending__image-icon-profile"
+                      src="https://miro.medium.com/v2/resize:fill:40:40/1*iudmnb-vrHQeHKc34ETv_A.jpeg"
+                      width="20"
+                      height="20"
+                      loading="lazy"
+                  /></a>
+                </div>
+                <div>
+                  <span class="trending__author-name">Jonathan Lethem</span>
+                </div>
               </div>
-              <div>
-                <span class="trending__author-name">Jonathan Lethem</span>
+              <div class="trending__description">Be Kind, Be Kind, Be Kind</div>
+              <div class="trending__info">
+                <span class="trending__date">Sept 21</span>
+                <span class="trending__span-dot">·</span>
+                <span class="trending__read-time">4 min read</span>
               </div>
-            </div>
-            <div class="trending__description">Be Kind, Be Kind, Be Kind</div>
-            <div class="trending__info">
-              <span class="trending__date">Sept 21</span>
-              <span class="trending__span-dot">·</span>
-              <span class="trending__read-time">4 min read</span>
             </div>
           </div>
-        </div>
-        <div class="trending__card">
-          <div class="trending__card-number">03</div>
-          <div class="trending__body">
-            <div class="trending__author">
-              <div>
-                <a href="#"
-                  ><img
-                    alt="UX Collective"
-                    class="trending__image-icon"
-                    src="https://miro.medium.com/v2/resize:fill:40:40/1*mDhF9X4VO0rCrJvWFatyxg.png"
-                    width="20"
-                    height="20"
-                    loading="lazy"
-                /></a>
+          <div class="trending__card">
+            <div class="trending__card-number">03</div>
+            <div class="trending__body">
+              <div class="trending__author">
+                <div>
+                  <a href="#"
+                    ><img
+                      alt="UX Collective"
+                      class="trending__image-icon"
+                      src="https://miro.medium.com/v2/resize:fill:40:40/1*mDhF9X4VO0rCrJvWFatyxg.png"
+                      width="20"
+                      height="20"
+                      loading="lazy"
+                  /></a>
+                </div>
+                <div>
+                  <span class="trending__author-name">Katie Cooper</span> in
+                  <span class="trending__author-name">UX Collective</span>
+                </div>
               </div>
-              <div>
-                <span class="trending__author-name">Katie Cooper</span> in
-                <span class="trending__author-name">UX Collective</span>
+              <div class="trending__description">
+                Color for brand designers working with product teams
               </div>
-            </div>
-            <div class="trending__description">
-              Color for brand designers working with product teams
-            </div>
-            <div class="trending__info">
-              <span class="trending__date">Sept 20</span>
-              <span class="trending__span-dot">·</span>
-              <span class="trending__read-time">5 min read</span>
+              <div class="trending__info">
+                <span class="trending__date">Sept 20</span>
+                <span class="trending__span-dot">·</span>
+                <span class="trending__read-time">5 min read</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="trending__card">
-          <div class="trending__card-number">04</div>
-          <div class="trending__body">
-            <div class="trending__author">
-              <div>
-                <a href="#"
-                  ><img
-                    alt="Towards Data Science"
-                    class="trending__image-icon"
-                    src="https://miro.medium.com/v2/resize:fill:40:40/1*CJe3891yB1A1mzMdqemkdg.jpeg"
-                    width="20"
-                    height="20"
-                    loading="lazy"
-                /></a>
+          <div class="trending__card">
+            <div class="trending__card-number">04</div>
+            <div class="trending__body">
+              <div class="trending__author">
+                <div>
+                  <a href="#"
+                    ><img
+                      alt="Towards Data Science"
+                      class="trending__image-icon"
+                      src="https://miro.medium.com/v2/resize:fill:40:40/1*CJe3891yB1A1mzMdqemkdg.jpeg"
+                      width="20"
+                      height="20"
+                      loading="lazy"
+                  /></a>
+                </div>
+                <div>
+                  <span class="trending__author-name">Katie Cooper</span> in
+                  <span class="trending__author-name">UX Collective</span>
+                </div>
               </div>
-              <div>
-                <span class="trending__author-name">Katie Cooper</span> in
-                <span class="trending__author-name">UX Collective</span>
+              <div class="trending__description">
+                Color for brand designers working with product teams
               </div>
-            </div>
-            <div class="trending__description">
-              Color for brand designers working with product teams
-            </div>
-            <div class="trending__info">
-              <span class="trending__date">Sept 20</span>
-              <span class="trending__span-dot">·</span>
-              <span class="trending__read-time">5 min read</span>
+              <div class="trending__info">
+                <span class="trending__date">Sept 20</span>
+                <span class="trending__span-dot">·</span>
+                <span class="trending__read-time">5 min read</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="trending__card">
-          <div class="trending__card-number">05</div>
-          <div class="trending__body">
-            <div class="trending__author">
-              <div>
-                <a href="#"
-                  ><img
-                    alt="Wise &amp; Well"
-                    class="trending__image-icon trending__image-icon-profile"
-                    src="https://miro.medium.com/v2/resize:fill:40:40/1*tlSJZopCPn4cndd9KrDLPg.png"
-                    width="20"
-                    height="20"
-                    loading="lazy"
-                /></a>
+          <div class="trending__card">
+            <div class="trending__card-number">05</div>
+            <div class="trending__body">
+              <div class="trending__author">
+                <div>
+                  <a href="#"
+                    ><img
+                      alt="Wise &amp; Well"
+                      class="trending__image-icon trending__image-icon-profile"
+                      src="https://miro.medium.com/v2/resize:fill:40:40/1*tlSJZopCPn4cndd9KrDLPg.png"
+                      width="20"
+                      height="20"
+                      loading="lazy"
+                  /></a>
+                </div>
+                <div>
+                  <span class="trending__author-name">Katie Cooper</span> in
+                  <span class="trending__author-name">UX Collective</span>
+                </div>
               </div>
-              <div>
-                <span class="trending__author-name">Katie Cooper</span> in
-                <span class="trending__author-name">UX Collective</span>
+              <div class="trending__description">
+                Color for brand designers working with product teams
               </div>
-            </div>
-            <div class="trending__description">
-              Color for brand designers working with product teams
-            </div>
-            <div class="trending__info">
-              <span class="trending__date">Sept 20</span>
-              <span class="trending__span-dot">·</span>
-              <span class="trending__read-time">5 min read</span>
+              <div class="trending__info">
+                <span class="trending__date">Sept 20</span>
+                <span class="trending__span-dot">·</span>
+                <span class="trending__read-time">5 min read</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="trending__card">
-          <div class="trending__card-number">06</div>
-          <div class="trending__body">
-            <div class="trending__author">
-              <div>
-                <a href="#"
-                  ><img
-                    alt="Bitchy"
-                    class="trending__image-icon"
-                    src="https://miro.medium.com/v2/resize:fill:40:40/1*TqAYf-jZvOGYHOQ6bq9qtg.jpeg"
-                    width="20"
-                    height="20"
-                    loading="lazy"
-                /></a>
+          <div class="trending__card">
+            <div class="trending__card-number">06</div>
+            <div class="trending__body">
+              <div class="trending__author">
+                <div>
+                  <a href="#"
+                    ><img
+                      alt="Bitchy"
+                      class="trending__image-icon"
+                      src="https://miro.medium.com/v2/resize:fill:40:40/1*TqAYf-jZvOGYHOQ6bq9qtg.jpeg"
+                      width="20"
+                      height="20"
+                      loading="lazy"
+                  /></a>
+                </div>
+                <div>
+                  <span class="trending__author-name">Katie Cooper</span> in
+                  <span class="trending__author-name">UX Collective</span>
+                </div>
               </div>
-              <div>
-                <span class="trending__author-name">Katie Cooper</span> in
-                <span class="trending__author-name">UX Collective</span>
+              <div class="trending__description">
+                Color for brand designers working with product teams
               </div>
-            </div>
-            <div class="trending__description">
-              Color for brand designers working with product teams
-            </div>
-            <div class="trending__info">
-              <span class="trending__date">Sept 20</span>
-              <span class="trending__span-dot">·</span>
-              <span class="trending__read-time">5 min read</span>
+              <div class="trending__info">
+                <span class="trending__date">Sept 20</span>
+                <span class="trending__span-dot">·</span>
+                <span class="trending__read-time">5 min read</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <div class="articles">
+      <div class="container">
+        <div class="grid">
+          <section class="article__section">
+            <article>
+              <div class="article__container">
+                <div class="article__body">
+                  <div class="article__author-container">
+                    <div class="article__author">
+                      <div class="article__image">
+                        <a href="#"
+                          ><img
+                            alt="ILLUMINATION"
+                            class="article__image-icon"
+                            src="https://miro.medium.com/v2/resize:fill:40:40/1*AZxiin1Cvws3J0TwNUP2sQ.png"
+                            width="20"
+                            height="20"
+                            loading="lazy"
+                        /></a>
+                      </div>
+                      <div class="author">
+                        <span class="trending__author-name">Clayton Moulynox</span>
+                        in
+                        <span class="trending__author-name">ILLUMINATION</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="article__title article__author-name">
+                    That Time My Kid Googled Me and I Was No Longer “Dad”
+                  </div>
+                  <div class="article__description">
+                    The repercussions of your online presence as a parent
+                  </div>
+                  <div class="article__info">
+                    <span class="article__date">Sep 20</span>
+                    <span class="article__span-dot">·</span>
+                    <span class="article__read-time">8 min read</span>
+                    <span class="article__span-dot">·</span>
+                    <button class="btn btn-tag">Parenting</button>
+                    <div class="article__bookmark">
+                      <svg
+                        width="25"
+                        height="25"
+                        viewBox="0 0 25 25"
+                        fill="none"
+                        class="nd">
+                        <path
+                          d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
+                          fill="#292929"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <a href="#"
+                  ><img
+                    alt="That Time My Kid Googled Me and I Was No Longer “Dad”"
+                    class=""
+                    src="https://miro.medium.com/v2/resize:fill:200:134/1*8vORDj4bueEGkeC6ov8aGg.png"
+                    width="200"
+                    height="134"
+                    loading="lazy"
+                /></a>
+              </div>
+            </article>
+            <article>
+              <div class="article__container">
+                <div class="article__body">
+                  <div class="article__author-container">
+                    <div class="article__author">
+                      <div class="article__image">
+                        <a href="#"
+                          ><img
+                            alt="Whitney Alese"
+                            class="article__image-icon-profile"
+                            src="https://miro.medium.com/v2/resize:fill:20:20/1*VXLgT3ilh1s060-Dcgl80Q.jpeg"
+                            width="20"
+                            height="20"
+                            loading="lazy"
+                        /></a>
+                      </div>
+                      <div class="author">
+                        <span class="trending__author-name">Whitney Alese</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="article__title article__author-name">
+                    In Renaissance, Beyoncé makes culture reckon with Blue Ivy
+                  </div>
+                  <div class="article__info">
+                    <span class="article__date">Sep 25</span>
+                    <span class="article__span-dot">·</span>
+                    <span class="article__read-time">4 min read</span>
+                    <span class="article__span-dot">·</span>
+                    <button class="btn btn-tag">Beyonce</button>
+                    <div class="article__bookmark">
+                      <svg
+                        width="25"
+                        height="25"
+                        viewBox="0 0 25 25"
+                        fill="none"
+                        class="nd">
+                        <path
+                          d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
+                          fill="#292929"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <a href="#"
+                  ><img
+                    alt="In Renaissance, Beyoncé makes culture reckon with Blue Ivy"
+                    src="https://miro.medium.com/v2/resize:fill:200:134/1*jCerKEP1Mscao2j73MTsEw.jpeg"
+                    width="200"
+                    height="134"
+                    loading="lazy"
+                /></a>
+              </div>
+            </article>
+            <article>
+              <div class="article__container">
+                <div class="article__body">
+                  <div class="article__author-container">
+                    <div class="article__author">
+                      <div class="article__image">
+                        <a href="#"
+                          ><img
+                            alt="Jonathan Lethem"
+                            class="article__image-icon-profile"
+                            src="https://miro.medium.com/v2/resize:fill:20:20/1*iudmnb-vrHQeHKc34ETv_A.jpeg"
+                            width="20"
+                            height="20"
+                            loading="lazy"
+                        /></a>
+                      </div>
+                      <div class="author">
+                        <span class="trending__author-name">Jonathan Lethem</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="article__title article__author-name">
+                    Be Kind, Be Kind, Be Kind
+                  </div>
+                  <div class="article__description">
+                    Henry James, Mr. Rogers, and the Long Middle
+                  </div>
+                  <div class="article__info">
+                    <span class="article__date">Sep 21</span>
+                    <span class="article__span-dot">·</span>
+                    <span class="article__read-time">4 min read</span>
+                    <span class="article__span-dot">·</span>
+                    <button class="btn btn-tag">Henry James</button>
+                    <div class="article__bookmark">
+                      <svg
+                        width="25"
+                        height="25"
+                        viewBox="0 0 25 25"
+                        fill="none"
+                        class="nd">
+                        <path
+                          d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
+                          fill="#292929"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <a href="#"
+                  ><img
+                    alt="Be Kind, Be Kind, Be Kind"
+                    src="https://miro.medium.com/v2/resize:fill:200:134/1*Z6IM5WZmOu73LRiaJ34nyA.png"
+                    width="200"
+                    height="134"
+                    loading="lazy"
+                /></a>
+              </div>
+            </article>
+          </section>
+          <aside>
+            <div class="topics">
+              <h2 class="topics__title">Discover more of what matters to you</h2>
+              <div class="topics__container">
+                <button class="btn btn-topic">Programming</button>
+                <button class="btn btn-topic">Data Science</button>
+                <button class="btn btn-topic">Technology</button>
+                <button class="btn btn-topic">Self Improvement</button>
+                <button class="btn btn-topic">Writing</button>
+                <button class="btn btn-topic">Relationships</button>
+                <button class="btn btn-topic">Machine Learning</button>
+                <button class="btn btn-topic">Productivity</button>
+                <button class="btn btn-topic">Politics</button>
+              </div>
+            </div>
+            <div class="topic__see-more">
+              <p class="topic__see-more-text">See more topics</p>
+            </div>
+            <div class="info">
+              <p>Help</p>
+              <p>Status</p>
+              <p>Writers</p>
+              <p>Blog</p>
+              <p>Careers</p>
+              <p>Privacy</p>
+              <p>Terms</p>
+              <p>About</p>
+              <p>Text to Speech</p>
+              <p>Teams</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
